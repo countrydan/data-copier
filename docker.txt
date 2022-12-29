@@ -1,0 +1,1 @@
+docker run --name retail_pg -e POSTGRES_PASSWORD=itversity -d -v C:\Users\danie\itversity_de\data-copier\retail_pg:/var/lib/postgresql/data -v C:\Users\danie\itversity_de\data-copier\retail_db_json:/retail_db_json -p 5452:5432 postgres
